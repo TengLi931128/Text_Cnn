@@ -1,0 +1,271 @@
+2021-11-20 11:50:39,992 INFO    MainThread:5417 [wandb_setup.py:_flush():71] setting env: {}
+2021-11-20 11:50:39,993 INFO    MainThread:5417 [wandb_setup.py:_flush():71] setting login settings: {}
+2021-11-20 11:50:39,993 INFO    MainThread:5417 [wandb_init.py:_log_setup():357] Logging user logs to /home/teng/Github/Text_Cnn/wandb/run-20211120_115039-7007dryq/logs/debug.log
+2021-11-20 11:50:39,993 INFO    MainThread:5417 [wandb_init.py:_log_setup():358] Logging internal logs to /home/teng/Github/Text_Cnn/wandb/run-20211120_115039-7007dryq/logs/debug-internal.log
+2021-11-20 11:50:39,993 INFO    MainThread:5417 [wandb_init.py:_jupyter_setup():307] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f6aa5581910>
+2021-11-20 11:50:39,994 INFO    MainThread:5417 [wandb_init.py:init():390] calling init triggers
+2021-11-20 11:50:39,994 INFO    MainThread:5417 [wandb_init.py:init():397] wandb.init called with sweep_config: {}
+config: {}
+2021-11-20 11:50:39,994 INFO    MainThread:5417 [wandb_init.py:init():435] starting backend
+2021-11-20 11:50:39,994 INFO    MainThread:5417 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-11-20 11:50:40,029 INFO    MainThread:5417 [backend.py:ensure_launched():199] starting backend process...
+2021-11-20 11:50:40,047 INFO    MainThread:5417 [backend.py:ensure_launched():205] started backend process with pid: 5530
+2021-11-20 11:50:40,049 INFO    MainThread:5417 [wandb_init.py:init():444] backend started and connected
+2021-11-20 11:50:40,083 INFO    MainThread:5417 [wandb_run.py:_label_probe_notebook():866] probe notebook
+2021-11-20 11:50:40,084 INFO    MainThread:5417 [wandb_run.py:_label_probe_notebook():876] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-11-20 11:50:40,084 INFO    MainThread:5417 [wandb_init.py:init():503] updated telemetry
+2021-11-20 11:50:40,098 INFO    MainThread:5417 [wandb_init.py:init():533] communicating current version
+2021-11-20 11:50:41,023 INFO    MainThread:5417 [wandb_init.py:init():538] got version response upgrade_message: "wandb version 0.12.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-11-20 11:50:41,024 INFO    MainThread:5417 [wandb_init.py:init():548] communicating run to backend with 30 second timeout
+2021-11-20 11:50:41,317 INFO    MainThread:5417 [wandb_init.py:init():576] starting run threads in backend
+2021-11-20 11:50:46,327 INFO    MainThread:5417 [wandb_run.py:_console_start():1693] atexit reg
+2021-11-20 11:50:46,328 INFO    MainThread:5417 [wandb_run.py:_redirect():1567] redirect: SettingsConsole.WRAP
+2021-11-20 11:50:46,329 INFO    MainThread:5417 [wandb_run.py:_redirect():1604] Wrapping output streams.
+2021-11-20 11:50:46,333 INFO    MainThread:5417 [wandb_run.py:_redirect():1628] Redirects installed.
+2021-11-20 11:50:46,333 INFO    MainThread:5417 [wandb_init.py:init():603] run started, returning control to user process
+2021-11-20 11:50:48,521 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:50:57,837 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:51:08,241 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:51:16,675 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:51:24,291 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:51:32,799 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:51:41,287 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:51:49,245 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:51:57,917 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:52:06,324 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:52:14,566 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:52:22,689 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:52:31,066 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:52:40,032 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:52:48,143 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:52:56,858 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:53:04,523 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:53:12,813 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:53:20,739 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:53:29,145 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:53:37,580 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:53:45,939 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:53:54,354 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:54:02,586 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:54:11,652 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:54:20,174 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:54:28,535 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:54:36,610 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:54:44,874 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:54:53,159 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:55:01,840 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:55:10,439 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:55:19,254 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:55:27,515 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:55:36,142 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:55:44,553 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:55:53,065 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:56:01,927 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:56:09,872 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:56:18,131 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:56:26,726 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:56:35,563 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:56:43,830 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:56:52,438 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:57:00,919 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:57:09,344 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:57:17,806 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:57:26,042 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:57:34,217 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:57:43,972 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:57:52,039 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:58:00,660 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:58:08,903 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:58:17,641 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:58:26,154 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:58:34,355 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:58:43,011 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:58:51,903 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:59:00,330 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:59:09,103 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:59:17,556 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:59:25,504 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:59:33,691 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:59:42,125 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:59:51,287 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 11:59:59,666 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:00:08,642 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:00:17,297 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:00:25,760 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:00:34,548 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:00:42,438 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:00:51,311 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:00:59,748 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:01:08,842 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:01:16,794 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:01:25,371 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:01:34,556 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:01:43,278 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:01:51,946 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:02:00,532 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:02:08,581 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:02:17,075 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:02:25,983 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:02:34,215 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:02:42,617 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:02:51,130 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:02:59,845 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:03:08,753 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:03:17,074 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:03:25,026 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:03:33,754 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:03:42,363 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:03:51,014 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:03:59,143 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:04:08,514 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:04:17,597 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:04:26,098 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:04:34,812 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:04:43,468 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:04:51,806 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:05:00,025 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:05:08,949 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:05:16,675 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:05:25,704 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:05:34,919 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:05:43,788 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:05:52,125 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:06:01,031 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:06:09,583 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:06:18,499 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:06:27,359 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:06:35,717 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:06:44,450 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:06:53,018 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:07:01,789 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:07:10,586 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:07:19,378 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:07:28,330 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:07:36,471 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:07:45,724 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:07:54,401 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:08:04,204 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:08:12,321 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:08:21,590 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:08:30,230 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:08:39,019 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:08:47,407 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:08:56,422 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:09:05,416 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:09:14,065 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:09:23,070 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:09:31,802 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:09:40,924 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:09:49,651 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:09:58,771 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:10:07,063 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:10:15,802 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:10:24,310 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:10:33,645 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:10:42,891 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:10:51,394 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:11:00,547 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:11:08,635 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:11:17,591 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:11:26,343 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:11:35,438 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:11:44,450 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:11:52,785 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:12:02,023 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:12:10,715 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:12:19,616 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:12:28,324 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:12:36,575 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:12:44,793 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:12:53,329 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:13:02,206 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:13:11,325 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:13:19,823 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:13:29,304 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:13:38,101 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:13:47,170 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:13:55,746 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:14:04,432 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:14:13,771 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:14:22,509 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:14:31,082 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:14:40,035 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:14:48,860 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:14:58,083 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:15:06,904 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:15:15,877 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:15:24,869 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:15:34,044 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:15:43,016 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:15:51,581 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:16:00,174 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:16:09,263 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:16:17,986 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:16:26,592 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:16:36,056 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:16:44,213 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:16:53,695 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:17:02,015 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:17:11,448 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:17:20,984 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:17:30,377 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:17:39,488 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:17:48,188 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:17:56,936 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:18:05,270 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:18:14,925 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:18:23,858 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:18:32,841 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:18:41,730 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:18:50,778 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:18:59,715 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:19:08,814 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:19:18,268 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:19:26,560 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:19:35,298 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:19:44,846 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:19:53,686 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:20:02,797 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:20:11,547 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:20:20,910 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:20:29,364 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:20:38,294 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:20:47,266 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:20:56,365 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:21:05,248 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:21:14,728 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:21:23,701 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:21:32,659 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:21:41,719 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:21:50,818 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:22:00,401 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:22:09,325 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:22:18,256 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:22:27,926 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:22:36,591 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:22:45,392 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:22:54,478 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:23:04,009 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:23:13,869 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:23:22,734 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:23:31,913 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:23:40,705 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:23:50,624 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:23:59,900 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:24:09,001 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:24:18,112 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:24:27,009 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:24:36,424 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:24:45,201 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:24:54,867 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:25:03,887 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:25:12,761 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:25:21,717 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:25:30,780 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:25:40,227 INFO    MainThread:5417 [wandb_watch.py:watch():43] Watching
+2021-11-20 12:25:48,853 INFO    MainThread:5417 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-20 12:25:48,853 INFO    MainThread:5417 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-20 12:46:19,115 INFO    MainThread:5417 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-20 12:46:24,294 INFO    MainThread:5417 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-20 12:46:24,295 INFO    MainThread:5417 [jupyter.py:save_ipynb():374] not saving jupyter notebook

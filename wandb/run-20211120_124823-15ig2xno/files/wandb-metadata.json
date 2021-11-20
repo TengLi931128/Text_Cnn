@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-90-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.4",
+    "heartbeatAt": "2021-11-20T11:48:26.630930",
+    "startedAt": "2021-11-20T11:48:23.896120",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/teng/.local/share/jupyter/runtime/kernel-370e6379-cad8-4d15-8a9f-d60f3b7fbc95.json"
+    ],
+    "state": "running",
+    "program": "Github/Text_Cnn/Text_sentiment_classification.ipynb",
+    "root": "/home/teng/Github/Text_Cnn",
+    "git": {
+        "remote": "git@github.com:TengLi931128/Text_Cnn.git",
+        "commit": null
+    },
+    "email": "liteng931128@gmail.com",
+    "host": "teng-ThinkPad-T450",
+    "username": "teng",
+    "executable": "/home/teng/anaconda3/bin/python"
+}
